@@ -15,7 +15,7 @@ Java 9 content @ JDD, with 2 extras
 == What?
 
 . Refactoring your code to Java 9 modules - monolith->modules (strategies, tools, patterns)
-. 9 Lifes of Java 9 - overview, history, code
+. **9 Lives of Java 9 - overview, history, code**
 . Get ready for j.u.c.flow! - reactive streams in 9 vs RxJava and Reactor on 8
 . Java9 and REPL - build web-app in REPL
 . Long awaited Java 9 - 8->9, most important features
@@ -23,7 +23,7 @@ Java 9 content @ JDD, with 2 extras
 == Who? Presentations
 
 . Refactoring your code to Java 9 modules - Rabea Gransberger
-. 9 Lifes of Java 9 - Tomasz Borek
+. **9 Lives of Java 9 - Tomasz Borek**
 . Get ready for java.util.concurrent.flow! - Piotr Wittchen
 . Java9 and REPL - Jakub Marchwicki
 . Long awaited Java 9 - Ekatarina Bulyshkina
@@ -63,6 +63,7 @@ Each image is a link, click to go to talk page.
 [link=https://jdd.org.pl/lecture.html#id=36963]
 image::RabeaGransberger_modules.png[]
 
+[data-background="black"]
 === 9 lives of Java 9
 
 [link=https://jdd.org.pl/lecture.html#id=37231]
@@ -101,3 +102,12 @@ image::JarekPałka_Java10.png[]
 
 [link=https://jdd.org.pl/lecture.html#id=36957]
 image::EkatarinaBulyshkina_LongAwaitedJava9.png[]
+
+== About me
+
+9 Lives of Java 9: overview, history, code
+
+image::lafk_pl.png[]
+
+Day 1, 11:30AM, track 2! 
+See you there!
