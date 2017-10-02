@@ -6,3 +6,16 @@
     font-color: red;
     background: url(img/twitter.ico) no-repeat scroll top right;
 }
+
+.reveal section > h2 {
+    font-size: 48px;
+}
+
+
+.reveal li {
+    font-size: 32px;
+}
+
+.reveal p {
+    font-size: 32px;
+}
