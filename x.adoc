@@ -1,8 +1,6 @@
 = Java 9 @ JDD
 :author: Tomasz Borek, @LAFK_pl, 
 :email: http://lafkblogs.wordpress.com
-:toc: preamble
-:toc-title: Spis treści
 :hardbreaks:
 :icons: font
 :imagesdir: ./img/
@@ -14,71 +12,51 @@
 
 Java 9 content @ JDD, with 2 extras
 
-== W questions
+== What?
 
-What, who, when...
-
-=== What?
-
-. Refactoring your code to Java 9 modules - monolith->modules
-. 9 Lifes of JAVA 9 - all features and why with history behind it
-. Get ready for java.util.concurrent.flow! - j.u.c.Flow in 9 vs RxJava and Reactor on 8
-. Quo vadis JEE? _(extra)_ - JEE 8 and 9
-. Java9 and REPL. Forget debugging, welcome joy and productivity - build web-app in REPL
-. Poza horyzont zdarzeń, czyli co nasz czeka w Java 10 _(extra)_ - JDK10, Amber, Panama, Valhalla
+. Refactoring your code to Java 9 modules - monolith->modules (strategies, tools, patterns)
+. 9 Lifes of Java 9 - overview, history, code
+. Get ready for j.u.c.flow! - reactive streams in 9 vs RxJava and Reactor on 8
+. Java9 and REPL - build web-app in REPL
 . Long awaited Java 9 - 8->9, most important features
 
-=== Who?
+== Who? Presentations
 
 . Refactoring your code to Java 9 modules - Rabea Gransberger
-. 9 Lifes of JAVA 9 - Tomasz Borek
+. 9 Lifes of Java 9 - Tomasz Borek
 . Get ready for java.util.concurrent.flow! - Piotr Wittchen
-. Quo vadis JEE? _(extra)_ - Wojciech Oczkowski
-. Java9 and REPL. Forget debugging, welcome joy and productivity - Jakub Marchwicki
-. Poza horyzont zdarzeń, czyli co nasz czeka w Java 10 _(extra)_ - Jarosław Pałka
+. Java9 and REPL - Jakub Marchwicki
 . Long awaited Java 9 - Ekatarina Bulyshkina
 
-=== When? Presentations
-
-. Modules - Oct 3rd 9:30am - 10:15am - Track 4
-.. strategies to split monolith into modules; tools to identify parts; refactoring; advanced: patterns 
-. java.util.concurrent.Flow - Oct 3rd 3:00pm - 3:45pm - Track 4
-. REPL - Oct 4th 11:30am - 12:15pm - Track 1
-. 8->9, most important features (long awaited Java 9) - Oct 4th 2:30pm - 3:15pm - Track 4
-. Which changes and why (9 lives of Java 9) - Oct 3rd 11:30am - 12:15pm - Track 2
-
-=== When? Extras
-
-. JEE8 and 9 - Oct 4th 10:30am - 11:15am - Track 3
-. Java 10 - Oct 4th 11:30am - 12:15pm - Track 3
+== Extras
 
 _EXTRAs are not **strictly** Java 9, but..._
 
-== Schedule for all
+=== What?
 
-. 1st day, 3rd October:
-.. 9:30am - 10:15am  - Track 4
-.. 11:30am - 12:15pm - Track 2
-.. 3:00pm - 3:45pm Track 4
-. 2nd day, 4th October:
-.. 10:30am - 11:15am   Track 3
-.. 11:30am - 12:15pm   Track 1 **conflicts with Java 10**
-.. 11:30am - 12:15pm   Track 3 **conflicts with REPL**
-.. 2:30pm - 3:15pm Track 4
+. Quo vadis JEE? - JEE 8 new features and plans for JEE 9
+. Poza horyzont zdarzeń, czyli Java 10 - JDK10: Amber, Panama, Valhalla
+
+=== Who? 
+
+. Quo vadis JEE? - Wojciech Oczkowski
+. Poza horyzont zdarzeń, czyli Java 10 - Jarosław Pałka
+
+== Schedule for day 1
+
+,===
+include::day1.csv[]
+,===
+
+== Schedule for day 2
+
+,===
+include::day2.csv[]
+,===
 
 == In details!
 
 Each image is a link, click to go to talk page.
-
-=== Who presents what?
-
-. Refactoring your code to Java 9 modules - Rabea Gransberger
-. 9 Lifes of JAVA 9 - Tomasz Borek
-. Get ready for java.util.concurrent.flow! - Piotr Wittchen
-. Quo vadis JEE? _(extra)_ - Wojciech Oczkowski
-. Java9 and REPL. Forget debugging, welcome joy and productivity - Jakub Marchwicki
-. Poza horyzont zdarzeń, czyli co nasz czeka w Java 10 _(extra)_ - Jarosław Pałka
-. Long awaited Java 9 - Ekatarina Bulyshkina
 
 === Refactoring your code to Java 9 modules
 
@@ -87,13 +65,11 @@ image::RabeaGransberger_modules.png[]
 
 === 9 lives of Java 9
 
-image::[]
+[link=https://jdd.org.pl/lecture.html#id=37231]
+image::TomaszBorek_9LivesOfJava9.png[]
 
-https://jdd.org.pl/lecture.html#id=37231
 
 === Get ready for juc.Flow!
-
-Reactive Streams; JDK8: RxJava2 or Reactor. JDK9: native support via j.u.c.Flow
 
 [link=https://jdd.org.pl/lecture.html#id=36959]
 image::PiotrWittchen_jucFlow.png[]
@@ -103,18 +79,25 @@ image::PiotrWittchen_jucFlow.png[]
 JEE 8 is now released; new features? And what about JEE 9 (w.r.t. cloud, microservices)?
 
 [link=https://jdd.org.pl/lecture.html#id=36969]
-image::[]
+image::WojtekOczkowski_JEE.png[]
 
-=== Java9 and REPL. Forget debugging, welcome joy and productivity.
+=== Java9 and REPL 
 
 Build real web-app in REPL!
 
-[link=https://jdd.org.pl/lecture.html#id=36972]
-image::[]
+[link=https://jdd.org.pl/lecture.html#id=36970]
+image::JakubMarchwicki_REPL.png[] 
 
-=== Poza horyzont zdarzeń
+=== Poza horyzont zdarzeń: Java 10
 
-Java 10, Amber, Valhalla, Panama, what is it, why? PL
+JDK10, Amber, Valhalla, Panama
 
 [link=https://jdd.org.pl/lecture.html#id=36972]
 image::JarekPałka_Java10.png[]
+
+=== Long awaited Java 9
+
+8->9, best features, perf&compiler and compatibility
+
+[link=https://jdd.org.pl/lecture.html#id=36957]
+image::EkatarinaBulyshkina_LongAwaitedJava9.png[]
