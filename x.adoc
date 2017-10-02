@@ -1,13 +1,15 @@
 = Java 9 @ JDD
 :author: Tomasz Borek, @LAFK_pl, 
-:email: http://lafkblogs.wordpress.com
+:twitter: LAFK_pl
+:blog: http://lafkblogs.wordpress.com
+:email: Tomasz.Borek@gmail.com
 :hardbreaks:
 :icons: font
 :imagesdir: ./img/
 :docinfo:
 :source-highlighter: highlightjs
 :backend: revealjs
-:revealjs_theme: white
+:revealjs_theme: solarized
 :revealjs_slideNumber: true
 
 Java 9 content @ JDD, with 2 extras
@@ -65,6 +67,8 @@ image::RabeaGransberger_modules.png[]
 
 [data-background="black"]
 === 9 lives of Java 9
+
+Overview, history, code
 
 [link=https://jdd.org.pl/lecture.html#id=37231]
 image::TomaszBorek_9LivesOfJava9.png[]
